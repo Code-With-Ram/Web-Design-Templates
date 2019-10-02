@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pop Ups</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+<a class = "btn" onclick="pop();">Show Box </a>
+<div id = 'box'>
+	<span><img src="checkmark.png" width="50px" height="50px"></img></span>
+	<h1>Good Job!!</h1>
+	<a onclick= 'pop();'class="close">Close</a>
+</div>	
+
+<script type="text/javascript">
+	
+	var c = 0;
+	function pop(){
+		if(c ==0)
+		{	document.getElementById("box").style.display = "block";
+		c =1;
+		}
+		else{
+			document.getElementById("box").style.display = "none";
+		c =0;
+
+		}
+	}
+</script>
+
+</body>
+</html>
