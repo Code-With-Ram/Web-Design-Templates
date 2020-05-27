@@ -1,2 +1,2 @@
 # Web-Design-Templates
-Contains predefined stylish web page templates for web design
+Contains some predefined stylish web page templates for web design
