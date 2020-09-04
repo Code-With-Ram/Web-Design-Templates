@@ -38,14 +38,18 @@ function loop(){
 		if(isElementInViewport(element))
 		{
 			element.classList.add('is-visible');
+
 		}
 		else
 		{
-			element.classList.remove('is-visible');
+			selement.classList.remove('is-visible');
+
 		}
 
 	});
+	
 	scroll(loop);
+
 }
 
 loop();
